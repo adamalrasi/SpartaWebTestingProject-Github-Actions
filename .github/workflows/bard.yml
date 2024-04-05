@@ -27,5 +27,5 @@ jobs:
       - name: Install dependencies
         run: mvn install
 
-      - name: Run tests with src/test/java/com/sparta/debugbteam/testframework/TestRunner.java
-        run: mvn test -Dtest=src/test/java/com/sparta/debugbteam/testframework/TestRunner.java
+      - name: Run tests with TestRunner.java
+        run: mvn test -Dtest=TestRunner.java
