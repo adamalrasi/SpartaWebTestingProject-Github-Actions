@@ -89,7 +89,7 @@ public class SignUpStepDefs {
         @Then("My Account should be successfully created")
         public void myAccountShouldBeSuccessfullyCreated() throws InterruptedException {
             Thread.sleep(2000);
-            MatcherAssert.assertThat(webDriver.getTitle(), containsString("Account"));
+            MatcherAssert.assertThat(webDriver.getTitle(), containsString(" Account"));
         }
 
 }
