@@ -48,7 +48,7 @@
             <version>7.13.0</version>
         </dependency>
     </dependencies>
-
+         <plugins>
          <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
@@ -57,5 +57,6 @@
     <target>17</target>
   </configuration>
 </plugin>
+         </plugins>
 
 </project>
